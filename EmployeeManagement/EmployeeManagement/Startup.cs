@@ -28,6 +28,7 @@ namespace EmployeeManagement
             services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }
 
+        // void Configure method is use to set up a request processing pipeline for the application
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
@@ -36,8 +37,18 @@ namespace EmployeeManagement
                 app.UseDeveloperExceptionPage();
             }
 
+            //MVC malware
             app.UseStaticFiles();           // malware for image,css,js
-            app.UseMvcWithDefaultRoute();   // MVC malware 
+            //app.UseMvc();
+
+
+            
+            //app.UseMvcWithDefaultRoute();                       // support the application request processing pipeline with a default route
+            // same as app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes => {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
+            
 
             app.Run(async (context) =>
             {

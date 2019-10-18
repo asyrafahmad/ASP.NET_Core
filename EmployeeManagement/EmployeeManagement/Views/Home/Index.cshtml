@@ -4,6 +4,28 @@
     ViewBag.Title = "Employee List";
 }
 
+@*NEW VERSION*@
+<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@employee.Name</h3>
+            </div>
+            <img class="card-img-top" src="~/images/noimage.jpg"  asp-append-versions="true"/>      
+            <div class="card-footer text-center">
+                <a asp-controller="home" asp-action="details" asp-route-id="@employee.Id"  
+                   class="btn btn-primary">Display</a>                                              
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@*OLD VERSION
 <table>
     <h3></h3>
     <thead>
@@ -23,4 +45,4 @@
             </tr>
         }
     </tbody>
-</table>
+</table>*@
