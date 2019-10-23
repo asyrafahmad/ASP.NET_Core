@@ -18,7 +18,6 @@ D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreap
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.RazorTargetAssemblyInfo.cs
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.Views.pdb
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CopyComplete
-D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csprojAssemblyReference.cache
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.cshtml.g.cs
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
@@ -27,3 +26,5 @@ D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreap
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\libman.json
+D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.cshtml.g.cs
+D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csprojAssemblyReference.cache
