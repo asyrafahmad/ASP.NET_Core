@@ -10,11 +10,15 @@ namespace EmployeeManagement.Models
     {
         public int Id { get; set; }
         [Required]
+        [MaxLength(50, ErrorMessage = "Name cannot be exceed 50 characters")]
         public string Name { get; set; }
-        [Email ]
         [Required]
+        //[RegularExpression(@"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.)+$",
+        //    ErrorMessage = "Invalid Email Format")]
+        [Display(Name = "Office Email")]
         public string Email { get; set; }
-        public Dept Department { get; set; }
+        [Required]
+        public Dept? Department { get; set; }
 
     }
 }
