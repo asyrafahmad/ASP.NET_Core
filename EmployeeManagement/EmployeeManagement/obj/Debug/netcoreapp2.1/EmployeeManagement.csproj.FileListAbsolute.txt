@@ -27,4 +27,5 @@ D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreap
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\libman.json
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.cshtml.g.cs
+D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\appsettings.json
 D:\Sapura\ASP.NET_Core\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csprojAssemblyReference.cache

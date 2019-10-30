@@ -16,5 +16,11 @@ namespace EmployeeManagement.Models
         }
 
         public DbSet<Employee> Employees { get; set; }
+
+        //Seed data
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
     }
 }
